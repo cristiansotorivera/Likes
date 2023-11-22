@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Styling for the black bar */
+.black-bar {
+    background-color: #080000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto; 
+    font-size: 30px;
+}
+
+/* Styling for the title */
+.title {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+/* Styling for the main container */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+
+/* Styling for the left div */
+.left-div {
+    width: 200px;
+    height: 230px;
+    align-items: center;
+    
+    margin-right: 10px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for the column on the right */
+.right-column {
+    width: 490px;
+    flex-direction: column;
+    
+}
+
+/* Styling for individual divs in the right column */
+.right-div {
+    
+    border: 2px solid black;
+    width: 450px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: space-between;/* horizontal */
+}
+
+/* Likes Buttons Style */
+button {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px;
+    width: 60px;
+}
+
+/* Style Picture */
+.me {
+    border-radius: 50%;
+    border: solid 2px grey;
+    margin: 10px;
+    
+}
+
+.avatar {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
